@@ -203,12 +203,6 @@ function App() {
 
           <div className="mission-art">
             <div className="cubicle-scene">
-              <div className="cubicle-monitor" aria-hidden="true">
-                <span>$WERK</span>
-              </div>
-              <div className="cubicle-keyboard" aria-hidden="true" />
-              <div className="cubicle-cup" aria-hidden="true">CAFE</div>
-              <div className="cubicle-note">ON THE CLOCK</div>
               <picture>
                 <source srcSet="/assets/mascot-thug.webp" type="image/webp" />
                 <img
