@@ -202,16 +202,19 @@ function App() {
           </div>
 
           <div className="mission-art">
-            <picture>
-              <source srcSet="/assets/mascot-thug.webp" type="image/webp" />
-              <img
-                className="mascot mission-mascot"
-                src="/assets/mascot-thug.png"
-                alt="$WERK mascot dancing"
-                width={420}
-                height={447}
-              />
-            </picture>
+            <div className="cubicle-scene">
+              <div className="cubicle-note">ON THE CLOCK</div>
+              <picture>
+                <source srcSet="/assets/mascot-thug.webp" type="image/webp" />
+                <img
+                  className="mascot mission-mascot"
+                  src="/assets/mascot-thug.png"
+                  alt="$WERK mascot dancing in a cubicle"
+                  width={420}
+                  height={447}
+                />
+              </picture>
+            </div>
           </div>
         </section>
       </main>
