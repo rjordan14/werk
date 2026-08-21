@@ -53,7 +53,11 @@ const setModalState = (isOpen) => {
   const modal = document.getElementById("whitepaper-modal");
   if (!modal) return;
 
-  modal.hidden = !isOpen;
+  if (isOpen) {
+    modal.removeAttribute("hidden");
+  } else {
+    modal.setAttribute("hidden", "");
+  }
   modal.style.display = isOpen ? "flex" : "none";
   document.body.style.overflow = isOpen ? "hidden" : "";
 };
