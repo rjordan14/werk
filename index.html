@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="$WERK is a meme coin with no intrinsic value or expectation of financial return. For entertainment purposes only."
+    />
+    <title>$WERK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Space+Grotesk:wght@400;500;700&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <nav class="top-nav" aria-label="Main navigation">
+        <div class="nav-inner">
+          <div class="wordmark" aria-label="WERK home">$WERK</div>
+          <div class="nav-links">
+            <button type="button" class="nav-link whitepaper-trigger" data-open-modal>
+              WHITEPAPER
+            </button>
+            <a class="nav-cta" href="#">JOIN THE FLOCK</a>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section class="hero section-shell" aria-labelledby="hero-title">
+          <div class="candle-backdrop" aria-hidden="true"></div>
+
+          <div class="hero-copy">
+            <div id="hero-title" class="hero-wordmark">$WERK</div>
+            <p class="hero-tagline">
+              We don't just make money.<br />
+              <span>We make money moves.</span>
+            </p>
+
+            <div class="hero-buttons">
+              <a class="button primary" href="#">BUY $WERK</a>
+              <a class="button secondary" href="#">CHART</a>
+            </div>
+
+            <button type="button" class="contract-button" data-copy-address aria-live="polite">
+              CA: WERKxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxpump
+            </button>
+          </div>
+
+          <div class="hero-art">
+            <picture>
+              <source srcset="public/assets/mascot-crown.webp" type="image/webp" />
+              <img
+                class="mascot hero-mascot"
+                src="public/assets/mascot-crown.png"
+                alt="$WERK mascot"
+                width="400"
+                height="600"
+              />
+            </picture>
+          </div>
+        </section>
+
+        <div class="ticker-band" aria-label="Ticker">
+          <div class="ticker-track" aria-live="off"></div>
+        </div>
+
+        <section class="mission section-shell" aria-labelledby="mission-heading">
+          <div class="mission-copy">
+            <div class="eyebrow">Our mission</div>
+            <h2 id="mission-heading" class="mission-heading">Green candles only</h2>
+            <p>
+              ser. it's a bird in a suit shaking cake for the culture. he doesn't read charts, he IS the chart. every candle is just him hitting it at a different speed and angles. this is the most bullish thing you will see all week and deep down you know it.
+            </p>
+            <p>
+              utility? the utility is you laughing. roadmap? cheeks up and to the right. your favorite coin has a whitepaper. ours has a dress code. the bird clocks in at 10:20am sharp and twerks until close. NFA. but also… look at him.
+            </p>
+
+            <div class="stats" aria-label="Key stats">
+              <div class="stat-item">
+                <div class="stat-value">24/7</div>
+                <div class="stat-label">DANCE FLOOR HOURS</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value">sure</div>
+                <div class="stat-label">LP BURNED</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value">∞</div>
+                <div class="stat-label">TWERKS / DAY</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">DAYS SINCE INCIDENT</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mission-art">
+            <picture>
+              <source srcset="public/assets/mascot-thug.webp" type="image/webp" />
+              <img
+                class="mascot mission-mascot"
+                src="public/assets/mascot-thug.png"
+                alt="$WERK mascot dancing"
+                width="420"
+                height="447"
+              />
+            </picture>
+          </div>
+        </section>
+      </main>
+
+      <div
+        class="modal-backdrop"
+        id="whitepaper-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-label="$WERK whitepaper"
+        tabindex="-1"
+        hidden
+        style="display: none;"
+      >
+        <div class="modal-card" aria-label="Whitepaper dialog panel">
+          <div class="modal-kicker">$WERK OFFICIAL WHITEPAPER — V1.0 — PAGE 1 OF 1</div>
+          <div class="modal-punchline">YOU SERIOUS RN?</div>
+          <div class="modal-body">
+            you wanna read a whitepaper for a twerking ostrich?<br />
+            the bird is the thesis.
+          </div>
+          <div class="modal-hint">[ tap anywhere to return to making money moves ]</div>
+          <button type="button" class="modal-close" data-close-modal>GOT IT</button>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        <div class="footer-wordmark">$WERK</div>
+        <div class="footer-disclaimer">
+          $WERK is a meme coin with no intrinsic value or expectation of financial return. For entertainment purposes only. The bird is not a financial advisor.
+        </div>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
