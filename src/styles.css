@@ -382,7 +382,9 @@ a:hover {
   overflow: hidden;
   border: 1px solid var(--hairline);
   border-radius: 8px;
-  background: linear-gradient(90deg, #2a3b2c 0 49.5%, #172419 49.5% 50.5%, #263a29 50.5% 100%);
+  background-image: linear-gradient(rgba(11, 18, 12, 0.3), rgba(11, 18, 12, 0.3)), url('/assets/cubicle-background.png');
+  background-position: center;
+  background-size: cover;
   box-shadow: inset 0 0 0 12px rgba(143, 206, 0, 0.04), 0 24px 70px rgba(0, 0, 0, 0.28);
 }
 
