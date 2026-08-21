@@ -102,7 +102,7 @@ function App() {
               WHITEPAPER
             </button>
             <a className="nav-cta" href={CONFIG.joinUrl}>
-              JOIN THE FLOCK
+              GET TO WERK
             </a>
           </div>
         </div>
