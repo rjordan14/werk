@@ -3,10 +3,10 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 type ModalTrigger = HTMLElement | null;
 
 const CONFIG = {
-  contractAddress: 'WERKxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxpump',
-  buyUrl: '#',
+  contractAddress: '0x1E2f164163CD418786a2B7d710877A6128A48888',
+  buyUrl: 'https://stonkbrokers.wtf/safe-launch/token/stonk2-werk-6',
   chartUrl: '#',
-  joinUrl: '#',
+  joinUrl: 'https://stonkbrokers.wtf/safe-launch/token/stonk2-werk-6',
   tickerDurationSeconds: 18,
 };
 
