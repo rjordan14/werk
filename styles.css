@@ -256,7 +256,7 @@ a:hover {
   margin-top: 20px;
   background: none;
   border: 1px dashed var(--border-strong);
-  color: var(--text-dim);
+  color: var(--text);
   font-family: "SFMono-Regular", Consolas, monospace;
   font-size: 12px;
   padding: 8px 14px;

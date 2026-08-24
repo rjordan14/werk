@@ -131,9 +131,6 @@ function App() {
               <a className="button primary" href={CONFIG.buyUrl}>
                 BUY $WERK
               </a>
-              <a className="button secondary" href={CONFIG.chartUrl}>
-                CHART
-              </a>
             </div>
 
             <button type="button" className="contract-button" onClick={handleCopy} aria-live="polite">
